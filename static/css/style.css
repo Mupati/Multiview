@@ -128,7 +128,7 @@ h6.caption {
 
 /*-- banner-slider --*/
 .w3layouts-banner-top{
-    background: url(../images/3.jpg) no-repeat 0px 0px;
+    background: url(../images/m3.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -137,7 +137,7 @@ h6.caption {
 	min-height:650px;
 }
 .w3layouts-banner-top1{
-    background: url(../images/2.jpg) no-repeat 0px 0px;
+    background: url(../images/m6.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -145,7 +145,7 @@ h6.caption {
 	-moz-background-size: cover;
 }
 .w3layouts-banner-top2{
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/m16.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -153,21 +153,21 @@ h6.caption {
 	-moz-background-size: cover;
 }
 .w3layouts-banner-top3{
-    background: url(../images/5.jpg) no-repeat 0px 0px;
+    background: url(../images/m5.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
 	-o-background-size: cover;		
 	-moz-background-size: cover;
 }
-.w3layouts-banner-top4{
+/*.w3layouts-banner-top4{
     background: url(../images/4.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
 	-o-background-size: cover;		
 	-moz-background-size: cover;
-}
+}*/
 .bs-slider-overlay {
     position: absolute;
     top: 0;
@@ -291,7 +291,9 @@ p.heading-bottom {
 }
 .wthree_work_grid1{
 	padding-top:10px;
+    height: 50px !important;
 }
+
 .w3_agile_work_grid{
 	padding: 0 5px;
 }
@@ -307,7 +309,8 @@ p.heading-bottom {
     -webkit-transition: 0.5s Ease;
     -moz-transition: 0.5s Ease;
     -o-transition: 0.5s Ease;
-    transition: 0.5s Ease;  
+    transition: 0.5s Ease;
+
 }
 
 .w3_agileits_sub_work
@@ -315,6 +318,10 @@ p.heading-bottom {
     color: rgba(0,0,0,0);
     line-height: 1px;
     
+}
+.w3_agileits_sub_work img  /*i added this myself*/
+{
+   height: 10em; 
 }
 .w3_agileits_sub_work:hover {
     color: #fff;
