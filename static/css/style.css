@@ -44,7 +44,7 @@ img{
 
 /*-- navbar --*/
 .bg-faded {
-    background: #f85a40;
+    background: #baa45f;/*#f85a40;*/
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
     color: #eee;
@@ -74,11 +74,11 @@ li.nav-item {
     -ms-flex: 1;
     flex: 1;
 }
-.headder-w3 a {
+/*.headder-w3 a {
     color: #1b1b1b;
     font-weight: 800;
     font-size: 40px;
-}
+}*/
 h6.caption {
     font-size: 20px;
     color: #333;
@@ -234,7 +234,7 @@ h2.heading,h3.heading {
     color: #232323;
 }
 p.heading-bottom {
-    color: #a6a6a6;
+    color: #961e1e;/*#a6a6a6;*/
     letter-spacing: 2px;
     font-size: 15px;
 }
@@ -249,7 +249,7 @@ p.heading-bottom {
     width: 55px;
     height: 55px;
     line-height: 55px;
-    background: #f85a40;
+    background: #baa45f;/*#f85a40*/
     color: #fff;
 }
 .grid_info {
@@ -280,20 +280,20 @@ p.heading-bottom {
 /*-- //Indus Fact Workers --*/
 
 /*--gallery --*/
-.agileinfo_work_grids{
+/*.agileinfo_work_grids{
 	margin-top:1em;
-}
-.wthree_work_grid1{
+}*/
+/*.wthree_work_grid1{
 	padding-top:10px;
     height: 50px !important;
 }
-
-.w3_agile_work_grid{
+*/
+/*.w3_agile_work_grid{
 	padding: 0 5px;
-}
-.wthree_work_grid1:nth-child(1) {
+}*/
+/*.wthree_work_grid1:nth-child(1) {
     padding-top: 0!important;
-}
+}*/
 .agile_work_grid
 {
     border: 6px solid #FFFFFF;
@@ -315,7 +315,7 @@ p.heading-bottom {
 }
 .w3_agileits_sub_work img  /*i added this myself*/
 {
-   height: 10em; 
+   height: 12em; 
 }
 .w3_agileits_sub_work:hover {
     color: #fff;
@@ -584,11 +584,11 @@ address p{
 	letter-spacing: 1px;
 	font-family: 'Montserrat', sans-serif;
 }
-iframe {
+/*iframe {
     width: 100%;
     border: none;
-    height: 370px;
-}
+/*    height: 370px;
+}*/
 .map {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -669,7 +669,7 @@ iframe {
 h2.page_heading {
     font-size: 45px;
     font-weight: 700;
-    color: #fff;
+    color: #baa45f;/*#fff;*/
     text-shadow: 2px 2px 3px #292828;
 }
 /*-- //inner_page_banner --*/
@@ -805,7 +805,7 @@ address {
     font-family: 'Montserrat', sans-serif;
 }
 .wthree_copy_right {
-    background: #f85a40;
+    background: #961e1e;/*#f85a40;*/
 }
 .wthree_copy_right a {
     color: #fff;
@@ -864,7 +864,7 @@ address {
 	transition: .5s all; 
 }
 .team h4 { 
-    color: #f85a40;
+    color: #961e1e;/*#f85a40;*/
     font-size: 1.3em; 
 }
 .team p {
@@ -951,7 +951,7 @@ address {
 }
 .agileits-button.two a, .agileits-button a {
     padding: 0.5em 0em;
-    color: #f85a40;
+    color: #961e1e;/*#f85a40;*/
     font-size: 15px;
     letter-spacing: 1px;
     background: none;
@@ -1017,7 +1017,7 @@ address {
 .agile_banner_bottom_grid_left_grid i {
     font-size: 22px;
     color: #fff;
-    background: #f85a40;
+    background: #baa45f;/*#f85a40;*/
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -1065,7 +1065,7 @@ section.middle {
     -o-border-radius: 30px;
 }
 .contactus a:hover {
-    background: #f85a40;
+    background: #961e1e;/*#f85a40;*/
 	color: #fff;
 }
 /*-- //middle services --*/
@@ -1084,7 +1084,7 @@ section.middle {
 	-o-transition: 0.5s all;
 }
 .servicegrid:hover h3 {
-    background: #f85a40;
+    background: #961e1e;/*#f85a40;*/
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -1121,7 +1121,7 @@ section.middle {
 }
 
 .servicetextgrid .read a:hover {
-    background: #f85a40;
+    background: #961e1e;/*#f85a40;*/
 	color: #fff;
 }
 /*-- // other services --*/
@@ -1256,7 +1256,7 @@ a.home:hover,button.btn1:hover{
     -o-border-radius: 30px;
 }
 .gallery1 .read a:hover {
-    background: #f85a40;
+    background: #961e1e;/*#f85a40;*/
     color: #fff;
 }
 /*-- //gallery page --*/
@@ -1290,7 +1290,7 @@ a.home:hover,button.btn1:hover{
     font-size: 16px;
 }
 .w3l-right-stats {
-    background: #f85a40;
+    background: #961e1e;/*#f85a40;*/
 }
 /*-- //stats --*/
 /*-- //about --*/
@@ -1316,7 +1316,7 @@ a.home:hover,button.btn1:hover{
     font-size: 1em;
 	font-weight: 600;
     width: 19%;
-    background: #f85a40;
+    background: #961e1e;/*#f85a40;*/
 	cursor: pointer;
     border: none;
 	box-sizing: border-box;
@@ -1370,9 +1370,9 @@ a.home:hover,button.btn1:hover{
 	}
 }
 @media(max-width: 1080px){
-	.headder-w3 a {
+	/*.headder-w3 a {
 		font-size: 34px;
-	}
+	}*/
 	.wthree_banner_bottom_grid_right h4 {
 		font-size: 17px;
 	}
@@ -1460,9 +1460,9 @@ a.home:hover,button.btn1:hover{
 		padding: 3em 0em;
 		height: 320px;
 	}
-	iframe {
+/*	iframe {
 		height: 320px;
-	}
+	}*/
 	li.nav-item {
 		text-align: center;
 	}
@@ -1479,10 +1479,10 @@ a.home:hover,button.btn1:hover{
 	.dropdown-item:hover, .dropdown-item:focus {
 		background-color: transparent;
 	}
-	.headder-w3 a {
+/*	.headder-w3 a {
 		font-size: 26px;
 	}
-}
+}*/
 @media(max-width: 800px){
 	.inner_page_banner {
 		min-height: 200px;
@@ -1496,9 +1496,9 @@ a.home:hover,button.btn1:hover{
 	.email-right p a, .w3-header-top-right-text p, .agileinfo-social-grids ul li a {
 		font-size: 13px;
 	}
-	.headder-w3 a {
+	/*.headder-w3 a {
 		font-size: 26px;
-	}
+	}*/
 }
 @media(max-width: 736px){
 	.contact-wthree input[type="text"], .contact-wthree input[type="email"], .contact-wthree input[type="password"], .contact-wthree textarea {
@@ -1550,14 +1550,14 @@ a.home:hover,button.btn1:hover{
 	.inner_page_banner {
 		min-height: 170px;
 	}
-	.headder-w3, .w3-header-top-right-text, .email-right, .agileinfo-social-grids {
+	/*.headder-w3, */.w3-header-top-right-text, .email-right, .agileinfo-social-grids {
 		width: 50%;
 		padding-bottom: 10px;
 		float: left;
 	}
-	.headder-w3 a {
+	/*.headder-w3 a {
 		font-size: 30px;
-	}
+	}*/
 }
 @media(max-width: 667px){
 	.gallery1 h3 {
@@ -1695,9 +1695,9 @@ a.home:hover,button.btn1:hover{
 	.about h4 {
 		font-size: 22px;
 	}
-	iframe {
+	/*iframe {
 		height: 250px;
-	}
+	}*/
 	.contact-wthree input[type="text"], .contact-wthree input[type="email"], .contact-wthree input[type="password"], .contact-wthree textarea {
 		font-size: 13px;
 	}
@@ -1710,9 +1710,9 @@ a.home:hover,button.btn1:hover{
 	.w3layouts-banner-top {
 		min-height: 420px;
 	}
-	.headder-w3 a {
+/*	.headder-w3 a {
 		font-size: 26px;
-	}
+	}*/
 }
 @media(max-width: 384px){
 	.social-icon a {
