@@ -1209,12 +1209,12 @@ a.home:hover,button.btn1:hover{
 
 /*-- why --*/
 .why{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/m17.jpg) no-repeat 0px 0px;
 	background-size: cover;
 }
 .why-grid h3 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     color: #eee;
     letter-spacing: 1px;
 }
