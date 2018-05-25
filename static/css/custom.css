@@ -1,17 +1,28 @@
+.spinner-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;/*#baa45f;*/
+	opacity: 0.9;
+	z-index: 999999;
+	
+}
 .spinner {
-  margin: 100px auto;
-  width: 50px;
-  height: 40px;
+  position: absolute;
+  top: 48%;
+  left: 40%;
+  width: 200px;
+  height: 50px;
   text-align: center;
   font-size: 10px;
-  top: 500px;
-  left: 200px;
 }
 
-.spinner > div {
-  background-color: #333;
+.spinner > div{
+  background-color:#333;
   height: 100%;
-  width: 6px;
+  width: 15px;
   display: inline-block;
   
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
