@@ -1,2 +1,4 @@
 *.txt
 static/images/favicon/*
+error.html
+typography.html
