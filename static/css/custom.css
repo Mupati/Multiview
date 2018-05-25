@@ -75,6 +75,15 @@
  	color: #961e1e !important;
  }
 
+@media (max-width: 768px) {
+  .spinner {
+  top: 40%;
+  left: 30%;
+    }
+ }
+
+
+
 /* .view a{
  	color: #961e1e !important;
  }*/
