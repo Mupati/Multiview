@@ -112,7 +112,7 @@
 <!-- inner page banner -->
 <section class="inner_page_banner text-center pt-4">
 	<h2 class="page_heading text-uppercase pt-md-5 pt-sm-4">Contact Us</h2>
-	<h4 class="text-uppercase pt-2"><a href="/index.html">Home</a> - <span class="desc">Contact Us</span></h4>
+	<h4 class="text-uppercase pt-2"><a href="/index.html">Home</a> &gt; <span class="desc">Contact Us</span></h4>
 </section>
 <!-- //inner page banner -->
 
@@ -144,8 +144,8 @@
 				</div>
 				
 				<div class="contact-wthree">
-					  <div class="dv-notify-success" style="color: green !important">Message Sent</div>
-					  <div class="dv-notify-failed" style="color: red !important">Failed to Send</div>
+					  <!-- <div class="dv-notify-success" style="color: green !important">Message Sent</div>
+					  <div class="dv-notify-failed" style="color: red !important">Failed to Send</div> -->
 					<h3 class="text-center mb-3">LEAVE US A MESSAGE</h3>
 					<form class="dv-add-oneto:multiview:contact">
 						<input type="text" name="name" placeholder="Full Name" required=""> 
@@ -153,7 +153,7 @@
 						<input type="text" name="number" placeholder="Phone Number" required=""> 
 						<!-- <input class="password" name="password" type="password" placeholder="Password" required=""> -->
 						<textarea name="message" placeholder="Message" required=""></textarea>
-						<input type="submit" value="SUBMIT">
+						<input type="submit" value="SUBMIT" data-toggle="modal" data-target="#contact" role="button" id="send">
 					</form>
 				</div>
 			</div>
@@ -228,6 +228,29 @@
 <!-- 	</div> -->
 </footer>
 <!-- //footer -->
+<!-- feedback modal -->
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="Request Feedback" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h5 class="modal-title text-uppercase" id="exampleModalLongTitle">Request Feedback</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+		<p>
+			<div class="dv-notify-success text-success">Your Message Has Been Received</div>
+			<div class="dv-notify-failed text-danger">Sending Message Failed!! Check your Inputs</div>
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary float-right" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--//feedback modal -->
 
 
 <!-- js-scripts -->		
